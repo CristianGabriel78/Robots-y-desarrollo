@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Robots: Ayuda y Desarrollo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #007BFF;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #40E0D0;
+            padding: 10px 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 20px;
+            border: 2px solid white;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        nav a.active {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        main {
+            padding: 20px;
+            color: white;
+        }
+        #inicio, #tecnews, #robots, #entregas, #inbolt {
+            font-size: 1.2em;
+            display: none;
+        }
+        .image-container {
+            border: 2px solid white;
+            padding: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .social-icons a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Los Robots: Ayuda y Desarrollo</h1>
+        <nav>
+            <a href="#inicio" onclick="showSection('inicio'); return false;">Inicio</a>
+            <a href="#tecnews" onclick="showSection('tecnews'); return false;">TecNews</a>
+            <a href="#robots" onclick="showSection('robots'); return false;">Robots de 4 patas y cinturones inteligentes</a>
+            <a href="#entregas" onclick="showSection('entregas'); return false;">Entregas de comida por robots</a>
+            <a href="#inbolt" onclick="showSection('inbolt'); return false;">Inbolt prevé financiación Serie A</a>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <div class="image-container">
+                <img src="img\img Robots ayudantes.png" alt="Robot ayudante en acción, mostrando sus capacidades en el hogar">
+            </div>
+            <h2>Inicio</h2>
+            <p>La robótica es un campo de la tecnología que se ocupa del diseño, construcción y operación de robots. A medida que avanzamos en el siglo XXI, la robótica y la inteligencia artificial están transformando la forma en que vivimos y trabajamos. Los robots ya no son solo herramientas utilizadas en fábricas; están comenzando a integrarse en nuestra vida cotidiana, realizando tareas desde la limpieza del hogar hasta la asistencia en cirugías complejas.</p>
+            <p>Los avances en tecnología han permitido la creación de robots cada vez más sofisticados y autónomos. Esto incluye robots con movilidad avanzada, como los de 4 patas, que pueden navegar por terrenos difíciles, y robots colaborativos que trabajan junto a humanos en entornos industriales. Además, el desarrollo de cinturones inteligentes representa un avance importante en la tecnología vestible, ayudando a las personas a mantener una buena postura y a monitorizar su salud.</p>
+            <p>El futuro de la robótica es prometedor, con aplicaciones que van desde la exploración espacial hasta la asistencia en el hogar. A medida que estas tecnologías continúan evolucionando, es fundamental considerar sus implicaciones éticas y cómo afectarán a la fuerza laboral y a la sociedad en general. En esta página, exploraremos las últimas novedades en robótica, así como el desarrollo de tecnologías que mejoran la vida diaria de las personas.</p>
+        </section>
+
+        <section id="tecnews">
+            <h2>TecNews</h2>
+            <div class="image-container">
+                <img src="img\tecnews.jpg" alt="Noticias tecnológicas">
+            </div>
+            <p>TecNews es tu fuente principal para obtener las últimas novedades tecnológicas. Aquí podrás encontrar noticias sobre los avances en robótica, inteligencia artificial, desarrollo de software, y mucho más. Mantente actualizado con las tendencias más recientes del mundo tecnológico.</p>
+            <p>En las últimas semanas, el mundo de la robótica ha avanzado a pasos agigantados. Empresas de todo el mundo están desarrollando robots más ágiles y autónomos, capaces de realizar tareas que antes parecían imposibles. Desde robots domésticos que ayudan con las tareas del hogar, hasta robots industriales que optimizan procesos de producción, la tecnología robótica sigue evolucionando a gran velocidad.</p>
+            <p>La inteligencia artificial también está siendo protagonista de grandes cambios. Recientes avances en redes neuronales y algoritmos de aprendizaje profundo están llevando la IA a un nivel completamente nuevo, con aplicaciones en áreas como la salud, la educación, y la seguridad. Los expertos predicen que la IA será fundamental en el futuro de la humanidad, transformando industrias enteras.</p>
+            <p>Por otro lado, el desarrollo de software está experimentando una revolución con la llegada de herramientas de programación más accesibles y eficientes. Plataformas de código abierto y entornos de desarrollo integrados (IDE) están permitiendo a más personas aprender a programar, lo que está fomentando una mayor innovación y colaboración en todo el mundo.</p>
+        </section>
+
+        <section id="robots">
+            <h2>Robots de 4 patas y cinturones inteligentes</h2>
+            <div class="image-container">
+                <img src="img\R cuatro patas.webp" alt="Robots de 4 patas">
+            </div>
+            <p>Los robots de 4 patas están revolucionando la manera en que interactuamos con el entorno. Estos robots, inspirados en animales, son capaces de caminar por terrenos irregulares, ayudar en rescates o transportar objetos pesados. Empresas como Boston Dynamics han liderado el desarrollo de estos robots, que ahora son utilizados en diversas industrias, desde la seguridad hasta la logística.</p>
+            <p>Por otro lado, los cinturones inteligentes están ayudando a las personas en su vida diaria. Estos dispositivos portátiles monitorean los movimientos del cuerpo, corrigen la postura y ofrecen soporte físico, lo que es especialmente útil para personas mayores o con discapacidades. Los cinturones inteligentes también pueden conectarse a teléfonos móviles para ofrecer informes de salud y alertas en tiempo real.</p>
+            <p>Ambas tecnologías están diseñadas para mejorar la calidad de vida y facilitar el trabajo humano, representando un avance importante en la robótica y la tecnología portátil.</p>
+            <p>Además, los robots de 4 patas tienen aplicaciones en sectores como la agricultura, donde pueden ayudar en la supervisión de cultivos y el transporte de materiales. En situaciones de desastre, pueden ser utilizados para buscar sobrevivientes en áreas de difícil acceso.</p>
+            <p>Por su parte, los cinturones inteligentes también están siendo explorados en entornos laborales, ayudando a los empleados a mantener una postura adecuada y reduciendo el riesgo de lesiones por esfuerzo repetitivo. La integración de estas tecnologías con sistemas de inteligencia artificial permite un monitoreo constante y ajustes automáticos para mejorar el confort y la salud del usuario.</p>
+            <p>En conclusión, la combinación de robots de 4 patas y cinturones inteligentes no solo está transformando la robótica, sino que también está creando un futuro donde la tecnología trabaja de la mano con los humanos para mejorar la calidad de vida.</p>
+        </section>
+
+        <section id="entregas">
+            <h2>Entregas de comida por robots</h2>
+            <div class="image-container">
+                <img src="img\dron de entrega.jpeg" alt="Entrega de comida por robots">
+            </div>
+            <p>Las entregas de comida por robots están revolucionando la manera en que los restaurantes y las empresas de alimentos interactúan con sus clientes. Esta tecnología emergente no solo mejora la eficiencia de las entregas, sino que también ofrece una experiencia más cómoda y rápida para los consumidores. Los robots de entrega están equipados con avanzados sistemas de navegación que les permiten moverse de manera autónoma por las calles y caminos, evitando obstáculos y siguiendo rutas preestablecidas.</p>
+            <p>A medida que la demanda de servicios de entrega crece, especialmente en entornos urbanos, muchas empresas han comenzado a implementar robots como una solución viable. Estos robots son capaces de transportar comidas desde el restaurante hasta la puerta del cliente, lo que reduce los tiempos de espera y mejora la logística de las operaciones.</p>
+            <p>Además, el uso de robots en las entregas minimiza el contacto humano, lo que se ha vuelto especialmente relevante en el contexto actual de salud pública. Al utilizar robots para las entregas, se disminuye la posibilidad de contagios y se promueve una mayor seguridad para todos los involucrados.</p>
+            <p>Los desafíos aún existen, como garantizar la seguridad de los robots en la vía pública y la necesidad de infraestructura adecuada para facilitar sus operaciones. Sin embargo, el futuro parece brillante, con una creciente aceptación de esta tecnología y el potencial de expandir su uso a nuevas áreas, como el transporte de medicamentos y otros productos esenciales.</p>
+            <p>En resumen, las entregas de comida por robots representan una emocionante innovación que está cambiando la forma en que consumimos alimentos. A medida que esta tecnología evoluciona, es probable que veamos un aumento en su implementación, lo que ofrecerá una mayor comodidad y eficiencia tanto para las empresas como para los consumidores.</p>
+        </section>
+
+        <section id="inbolt">
+            <h2>Inbolt prevé financiación Serie A</h2>
+            <div class="image-container">
+                <img src="img\imbolt.jpeg" alt="Financiación Serie A de Inbolt">
+            </div>
+            <p>Inbolt, una startup innovadora en el sector de la tecnología, ha anunciado su intención de buscar financiación Serie A para expandir sus operaciones y desarrollar nuevas soluciones en el campo de la robótica. Esta financiación permitirá a Inbolt acelerar su crecimiento, mejorar su infraestructura y aumentar su capacidad de investigación y desarrollo.</p>
+            <p>Con el creciente interés en la automatización y la robótica, Inbolt está posicionándose como un jugador clave en el mercado. Su enfoque en la creación de robots avanzados que pueden realizar tareas complejas está atrayendo la atención de inversores que buscan oportunidades en el sector tecnológico. La financiación Serie A es un paso crucial para empresas en etapa temprana que desean establecerse y crecer rápidamente.</p>
+            <p>La startup ha logrado importantes avances en sus productos, y los recientes prototipos han demostrado un gran potencial en diversas aplicaciones industriales y comerciales. La inversión permitirá a Inbolt llevar sus innovaciones al mercado más rápidamente y competir de manera efectiva con otras empresas en el sector.</p>
+            <p>Además, Inbolt planea utilizar parte de la financiación para expandir su equipo, incorporando talento diverso y experimentado que pueda contribuir al desarrollo de soluciones robóticas avanzadas. Este crecimiento no solo beneficiará a la empresa, sino que también creará nuevas oportunidades laborales en la comunidad local.</p>
+            <p>Con una sólida estrategia y una visión clara, Inbolt está lista para enfrentar los desafíos del mercado y liderar el camino en la próxima generación de tecnología robótica.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-icons">
+            <a href="#" target="_blank">Facebook</a>
+            <a href="#" target="_blank">Twitter</a>
+            <a href="#" target="_blank">Instagram</a>
+            <a href="#" target="_blank">LinkedIn</a>
+        </div>
+        <p>&copy; 2024 Los Robots: Ayuda y Desarrollo. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        function showSection(sectionId) {
+            const sections = document.querySelectorAll('main > section');
+            sections.forEach(section => {
+                section.style.display = 'none';
+            });
+
+            const selectedSection = document.getElementById(sectionId);
+            selectedSection.style.display = 'block';
+
+            const navLinks = document.querySelectorAll('nav a');
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+            });
+            const activeLink = document.querySelector(`nav a[href="#${sectionId}"]`);
+            if (activeLink) {
+                activeLink.classList.add('active');
+            }
+        }
+
+        showSection('inicio');
+    </script>
+</body>
+</html>
